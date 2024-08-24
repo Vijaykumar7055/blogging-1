@@ -1,0 +1,94 @@
+#getStarted {
+  margin-top: 90px !important;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #getStarted .title {
+    font-size: clamp(2.8rem, 3vw, 2rem);
+    width: 80%;
+    font-weight: bold;
+  }
+  
+  #getStarted .startedImg {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: -1;
+    width: 45%;
+    border-radius: 40px 10px ;
+
+  }
+  
+  #getStarted .info {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    width: 60%;
+    margin: 2rem 0;
+  }
+  
+  #getStarted .getStartedBtn {
+    padding: 1.2rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #ffb613;
+    transition: 0.3s ease all;
+    margin-top: 2rem;
+  }
+  
+  #getStarted .getStartedBtn:hover {
+    background-color: #f1a500;
+  }
+  
+
+  #getStarted .allText {
+    z-index: 2;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    #getStarted {
+      margin-top: 7rem;
+    }
+    #getStarted .title {
+      width: 100%;
+    }
+    #getStarted .info {
+      width: 100%;
+    }
+    #getStarted .startedImg {
+      opacity: 0.4;
+      left: 0;
+      display: none;
+    }
+    #getStarted .getStartedBtn {
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  /* why chooose us */
+
+  .card-choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  border-radius: 50%;
+  width: 15%;
+  height: 50px; 
+  margin: auto;
+  border: 1px solid red;
+  }
+
+ 
+  .card-box{
+    box-shadow: 2px 2px 5px 1px black;
+    padding: 30px;
+    border-radius: 10px;
+    border-end-end-radius: 40px;
+    height: 300px;
+  }
+
+  
+
+  

@@ -1,0 +1,26 @@
+/* MyComponent.css */
+
+.my-section {
+    padding: 40px 0;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

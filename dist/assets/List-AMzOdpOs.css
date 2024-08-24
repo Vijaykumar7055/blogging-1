@@ -1,0 +1,1 @@
+.image-container{position:relative;overflow:hidden;width:100%;max-width:600px;margin:auto}.startedImg{width:100%;height:300px!important;transition:transform .3s ease;object-fit:cover}.image-container:hover .startedImg{transform:scale(1.1)}
